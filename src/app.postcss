@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+html,
+body {
+	@apply h-full overflow-hidden min-w-[320px];
+}
+
+@font-face {
+	font-family: 'Inter';
+
+	src: url('/fonts/Inter-VariableFont_slnt,wght.ttf');
+}
+@font-face {
+	font-family: 'Geist';
+	src: url('/fonts/GeistVariableVF.ttf')
+}
+
+::-webkit-search-cancel-button {
+	@apply invert-[0.5] cursor-pointer
+}
